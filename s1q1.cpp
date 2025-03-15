@@ -28,7 +28,7 @@ class Cylinder
     }
 };
 int main()
-{  
+{
     Cylinder c1;
     float radius,height;
     cout<<"Enter radius "<<endl;
@@ -38,6 +38,6 @@ int main()
     cin>>height;
     c1.setheight(height);
     cout<<"Volum of the cylinder is = "<<c1.volume()<<endl;
-    cout<<" hi Atharv"<<endl;
+
     return 0;
 }
